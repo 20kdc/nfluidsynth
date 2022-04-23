@@ -1,12 +1,7 @@
-# What is this?
+# Before you continue!
 
-nfluidsynth is a C# binding for [fluidsynth](https://github.com/Fluidsynth/fluidsynth/).
+This specific fork exists because I put up a NuGet package a while ago as part of an attempt to help fix SS14 MIDI issues on Linux.
 
-It is a P/Invoke wrapper, therefore you need native libfluidsynth.so / libfluidsynth.dylib / (lib)fluidsynth.dll.
-nfluidsynth builds and packages don't come up with those native libraries, so you are supposed to prepare them by yourself (at least for now).
+Since the package is MIT it's not technically an issue that the package went without source for a little while but it's still not good practice so I'm correcting that by keeping this here.
 
-The target API is fluidsynth 2.0.x. The API mappings may not be complete (contributions are welcome).
-
-For real-world-ish use case, see [fluidsynth-midi-service](https://github.com/atsushieno/fluidsynth-midi-service).
-
-[soundfont-player-cs](https://github.com/atsushieno/soundfont-player-cs) might become another use case but it is very immature private hack.
+If you want an actual version of this package please see upstream at https://github.com/atsushieno/nfluidsynth
